@@ -23,11 +23,6 @@ public class JogoManager {
 		String[] senha = senhaManager.getSenha().getSenha();
 		String[] tentativa = tentativaManager.tentativa.getTentativa();
 		
-		System.out.println("senha == " + senha[0]);
-		System.out.println("senha == " + senha[1]);
-		System.out.println("senha == " + senha[2]);
-		System.out.println("senha == " + senha[3]);
-		
 		for(int i = 0; i < 4; i++){
 			if(tentativa[i].equals(senha[i])){
 				pinosBrancoPreto.add("preto");
